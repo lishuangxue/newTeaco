@@ -306,7 +306,7 @@
                 <img src="./images/images/er_07.jpg" alt="" class="mt20 mb20">
 
                 <div class="seckillbox mt10 clearfix">
-                    <div class="seckill fl">
+                    <div class="seckill fl mr15">
                         <img src="./images/images/miao_03.jpg" alt="">
                         <div class="seckilltime fs24 cfff">
                             <div id="timeBox"></div>
@@ -316,19 +316,46 @@
                     </div>
 
                     <!-- 轮播 -->
-                    <ul class=" clearfix lul">
-                        <script>
-                            for(let i=0;i<4;i++){
-                                document.write(`
-                                        <li class="lh24">
-                                            <p class="txtal pt15 mb10"><img src="./images/img8.jpg" alt=""></p>
-                                            <p class="c666 tindent15">小米小爱音箱 Play</p>
-                                            <p class="cred fs16 tindent15">¥129.00 <a class="cb2b tline fs12">¥230.00</a> </p>
-                                        </li>       
-                                `)
-                            }
-                        </script>
-                    </ul> 
+                    <div class=" clearfix lul fl">
+                        <div class="pptbox mb10" id="slider2">
+                        <ul class="innerwrapper">
+                            <li>
+                                <a href="#">
+                                    <img src="./images/images/yin_06.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/img7.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/img9.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/img7.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/img9.jpg" />
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="controls">
+                            <li class="current">1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                        </ul>
+                        <span class="btnleft"></span>
+                        <span class="btnright"></span>
+                        </div>
+                    </div> 
                 </div>
             </div>
         </div>
@@ -341,16 +368,16 @@
         </div>
 
         <!-- 第三部分内容 -->
-        <div class="contain3 bd bgf4">
+        <div class="contain3 bgf4">
             <div class="wrapper">
 
                 <ul class="conduct">
                     <!-- 服装配饰 -->
                     <li class="commodity clearfix">
                         <!-- 标题 -->
-                        <h2 class="clearfix mt40 mb20"> 
+                        <h2 class="clearfix pt40 mb20"> 
                             <img src="./images/images/images/cloth_06.jpg" alt="" class="fl">
-                           <p class="fr fs16 c808"> <span class="spancur">热销内衣</span>  <span>精品男装</span> <span>童装</span> </p> 
+                           <p class="fr fs18 c808"> <span class="spancur">热销内衣</span>  <span>精品男装</span> <span>童装</span> </p> 
                         </h2>
                         <!-- 左边 -->
                         <div class="con-l bgcfff fl">
@@ -468,9 +495,9 @@
                     <!-- 母婴童装 -->
                     <li class="commodity clearfix">
                             <!-- 标题 -->
-                            <h2 class="clearfix mt40 mb20"> 
+                            <h2 class="clearfix pt40 mb20"> 
                                 <img src="./images/images/images/mu_24.jpg" alt="" class="fl">
-                                <p class="fr fs16 c808"> <span class="spancur">热销内衣</span>  <span>精品男装</span> <span>童装</span> </p> 
+                                <p class="fr fs18 c808"> <span class="spancur">热销内衣</span>  <span>精品男装</span> <span>童装</span> </p> 
                             </h2>
                             <!-- 左边 -->
                             <div class="con-l bgcfff fl">
@@ -588,9 +615,9 @@
                     <!-- 精致人生 -->
                     <li class="commodity clearfix">
                             <!-- 标题 -->
-                            <h2 class="clearfix mt40 mb20"> 
+                            <h2 class="clearfix pt40 mb20"> 
                                 <img src="./images/images/images/jing_27.jpg" alt="" class="fl">
-                               <p class="fr fs16 c808"> <span class="spancur">热销内衣</span>  <span>精品男装</span> <span>童装</span> </p> 
+                               <p class="fr fs18 c808"> <span class="spancur">热销内衣</span>  <span>精品男装</span> <span>童装</span> </p> 
                             </h2>
                             <!-- 左边 -->
                             <div class="con-l bgcfff fl">
@@ -708,9 +735,9 @@
                     <!-- 家居生活 -->
                     <li class="commodity clearfix">
                             <!-- 标题 -->
-                            <h2 class="clearfix mt40 mb20"> 
+                            <h2 class="clearfix pt40 mb20"> 
                                 <img src="./images/images/images/jia_30.jpg" alt="" class="fl">
-                                <p class="fr fs16 c808"> <span class="spancur">热销内衣</span>  <span>精品男装</span> <span>童装</span> </p> 
+                                <p class="fr fs18 c808"> <span class="spancur">热销内衣</span>  <span>精品男装</span> <span>童装</span> </p> 
                             </h2>
                             <!-- 左边 -->
                             <div class="con-l bgcfff fl">
@@ -830,10 +857,132 @@
         </div>
     </div>
 
-    <!-- 楼层 -->
+    <!-- 4.楼层 -->
+    <div id="floor">
+        <ul >
+            <li  class="bg2"  bgc1="#f65727">服装</li>
+            <li  class="bg4"  bgc1="#ff7394">童装</li>
+            <li  class="bg3"  bgc1="#bb9dee">精致</li>
+            <li  class="bg5"  bgc1="#c2ec51">家居</li>
+        </ul>
+    </div>
 
-    <!-- 页脚 -->
-    <div id="footer"></div>
+    <!-- 5.顶部搜索框 -->
+    <div id="topsearch">
+            <div class="wrapper searchbox ">
+    
+            </div>
+    </div>
+
+    <!-- 6.领劵中心 -->
+    <div id="center">
+            <span class="qrcode-a"></span>
+            <span class="qrcode-b"></span>
+            <span class="qrcode-c"></span>
+            <span class="qrcode-d"></span>
+     </div> 
+
+    <!-- 7. 页脚 -->
+    <div id="footer">
+        <div class="footer-body">
+            <div class="wrapper">
+                <ul class="footer-infor clearfix">
+                    <li class="clearfix">
+                        <p class="fl mr15"><img src="./images/img25.jpg" alt=""></p> 
+                        <p class="fl fs20 c333 lh29">正品保障 <br>  <span class="c9f9 fs14">正品行货 放心选购 </span> </p>
+                    </li>
+
+                    <li class="clearfix">
+                        <p class="fl mr15"><img src="./images/img27.jpg" alt=""></p> 
+                        <p class="fl fs20 c333 lh29 " >满86包邮 <br>  <span class="c9f9 fs14">满86元 免运费 </span> </p>
+                    </li>
+
+                    <li class="clearfix">
+                        <p class="fl mr15"><img src="./images/img26.jpg" alt=""></p> 
+                        <p class="fl fs20 c333 lh29">售后无忧 <br>  <span class="c9f9 fs14">七天无理由退货 </span> </p>
+                    </li>
+
+                    <li class="clearfix">
+                        <p class="fl mr15"><img src="./images/img30.jpg" alt=""></p> 
+                        <p class="fl fs20 c333 lh29">准时送达 <br>  <span class="c9f9 fs14">收货时间有你做主 </span> </p>
+                    </li>
+                </ul>
+
+                <ul class="footer-service clearfix ml30 pt30">
+                    <li> 
+                        <h4 class="fs18">新手入门</h4>
+                        <ul class="fs16">
+                            <li> <a href="#">购物流程</a>  </li>
+                            <li> <a href="#">会员制度</a> </li>
+                            <li> <a href="#">订单查询</a> </li>
+                            <li> <a href="#">服务协议及隐私说明</a> </li>
+                            <li> <a href="#"> 网站地图</a></li>
+                        </ul>
+                    </li>
+
+                    <li> 
+                        <h4 class="fs18">支付方式</h4>
+                        <ul class="fs16">
+                            <li> <a href="#">货到付款</a>  </li>
+                            <li> <a href="#">网上支付</a> </li>
+                            <li> <a href="#">礼品卡支付</a> </li>
+                            <li> <a href="#">其他支付</a> </li>
+                        </ul>
+                    </li>
+
+                    <li> 
+                        <h4 class="fs18">配送服务</h4>
+                        <ul class="fs16">
+                            <li> <a href="#">配送进度查询</a>  </li>
+                            <li> <a href="#">商品验货与签收</a> </li>
+                        </ul>
+                    </li>
+
+                    <li> 
+                        <h4 class="fs18">相关规则</h4>
+                        <ul class="fs16">
+                            <li> <a href="#">平台规则</a>  </li>
+                            <li> <a href="#">退款货政策</a> </li>
+                            <li> <a href="#">发票制度</a> </li>
+                            <li> <a href="#">帮助中心</a> </li>
+                        </ul>
+                    </li>
+
+                    <li  class="txtal">
+                        <h5 class="c333 fs18">App更优惠</h5> 
+                        <img src="./images/qryhd.png" alt="">
+                    </li>
+
+                    <li  class="txtal">
+                        <h5 class="c333 fs18">加微信查订单</h5> 
+                        <img src="./images/qryhd.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright bgf4">
+            <div class="wrapper">
+                <p class="txtal c808 lh24 pt10">
+                        沪ICP备XXXXXXXXX号 | 经营证照 | 互联网药品信息服务资格证(沪)-经营性-2017-0006 | 违法和不良信息举报电话：XXX-XXXXXXXX | 沪B2-XXXXXXX | <br>
+                        沪公网安备 XXXXXXXXX号 | 友情链接 | 出版物经营许可证 | 增值电信业务经营许可证
+                </p>
+                <p class="txtal pt15">
+                    <img src="./images/img28.jpg" alt="">
+                    <img src="./images/img23.jpg" alt="">
+                    <img src="./images/img35.png" alt="">
+                    <img src="./images/img24.png" alt="">
+                    <img src="./images/img4.jpg" alt="">
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 8.回到顶部 -->
+    <div id="topback">
+
+    </div>
+    
     <!-- 引入jQuery -->
     <script src="./lib/jquery.js"></script>
     <!-- 引入插件 -->

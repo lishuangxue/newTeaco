@@ -133,31 +133,13 @@
     top: 209px;
     left: 177px;
 }
-/* 轮播 */
-#contain .contain1 .seckillbox .lul img{
-    width: 198px!important;
-    height: 198px!important;
-}
-#contain .contain1 .seckillbox .lul li{
-    width: 228px;
-    height: 285px;
-    background-color: #fff;
-    float: left;
-    line-height: 24px;
-}
-#contain .contain1 .seckillbox .lul li a{
-    display: inline-block;
-}
-#contain .contain1 .seckillbox .lul li:not(:last-child){
-    margin-right: 15px;
-}
 /* 内容2 */
 #contain .contain2{
     height: 654px;
 }
 /* 内容3 */
 #contain .contain3{
-    height: 2664px;
+    height: 2575px;
 }
 .spancur{
 	color: #ffbd0d;
@@ -168,6 +150,7 @@
 }
 #contain .contain3 .conduct li h2 span{
     margin-right: 20px;
+    cursor: pointer;
 }
 /* 左边 */
 #contain .contain3 .con-l{
@@ -216,4 +199,76 @@
     width: 127px;
     height: 65px;
     margin-top: 10px;
+}
+
+/* 楼层 */
+#floor{
+    width: 40px;
+    height: 200px;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    margin-left: -670px;
+    margin-top: -100px;
+}
+#floor ul{
+    background: #f2f2f2;
+
+}
+#floor ul li{
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    padding-left: 40px;
+    height: 40px;
+    overflow: hidden;
+    background: url(../images/fix_box_icon_160622.png) no-repeat
+}
+#floor ul li.bg2{
+    background-position-y: -80px;
+}
+#floor ul li.bg3{
+    background-position-y: -160px;
+}
+#floor ul li.bg4{
+    background-position-y: -200px;
+}
+#floor ul li.bg5{
+    background-position-y: -320px;
+}
+/* 领劵中心 */
+#center {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-top: -89.5px;
+    z-index: 100;
+}
+#center .qrcode-a{
+    display: block;
+    width: 39px;
+    height: 40px;
+    background: url(../images/two_30.jpg) no-repeat;
+}
+#center .qrcode-b{
+    display: block;    
+    width: 100px;
+    height: 100px;
+    background: url(../images/two_34.jpg) no-repeat;
+    position: absolute;
+    top:40px;
+    right: 39px;
+    display: none;
+}
+#center .qrcode-c{
+    display: block;
+    width: 39px;
+    height: 101px;
+    background: url(../images/two_35.jpg) no-repeat;
+}
+#center .qrcode-d{
+    display: block;    
+    width: 39px;
+    height:39px;
+    background: url(../images/two_40.jpg) no-repeat;
 }

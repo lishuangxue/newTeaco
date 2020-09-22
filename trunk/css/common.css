@@ -113,6 +113,15 @@ body{
 .cffb{
     color: #ffbd0d;
 }
+.cd5d{
+    color: #d5d5d5;
+}
+.c8a8{
+    color: #8a8a8a;
+}
+.cff9{
+    color: #ff9c00;
+}
 /* 边框线 */
 .bd{
     border:1px solid red
@@ -175,6 +184,9 @@ body{
 .tindent15{
     text-indent: 15px;
 }
+.tindent30{
+    text-indent: 30px;
+}
 /* 外边距 */
 .mt10{
     margin-top: 10px;
@@ -203,9 +215,6 @@ body{
 .ml50{
     margin-left: 50px;
 }
-.mt40{
-    margin-top: 40px;
-}
 .mb40{
     margin-bottom: 40px;
 }
@@ -224,12 +233,33 @@ body{
 .ml15{
     margin-left: 15px;
 }
+.mr15{
+    margin-right: 15px;
+}
+.mb12{
+    margin-bottom: 12px;
+}
+.ml25{
+    margin-left: 25px;
+}
 /* 内边距 */
-.pt15{
+.pt10{
     padding-top: 10px;
 }
 .pt20{
     padding-top: 20px;
+}
+.pt40 {
+    padding-top: 40px;
+}
+.pt30 {
+    padding-top: 30px;
+}
+.pt15 {
+    padding-top: 15px;
+}
+.pt50 {
+    padding-top: 50px;
 }
 /* 背景颜色 */
 .bgc10{
@@ -257,7 +287,15 @@ body{
     background-color: #fff;
 }
 /* 行高 */
-/* 选项卡 */
+.lh29{
+   line-height: 29px;
+}
+.lh24{
+    line-height: 24px;
+ }
+ .lh36{
+    line-height: 36px;
+ }
 
 /* 头（顶部样式） */
 #header{
@@ -353,11 +391,42 @@ body{
 }
 
 /* 页脚 */
-
-
-
-
-
+#footer .footer-body{
+    height: 360px;
+}
+#footer .footer-body .footer-infor{
+    border-bottom: 1px solid #b8b8b8;    
+}
+#footer .footer-body .footer-infor li{
+    float: left;
+    width: 270px;
+    padding-left: 29px;
+    margin: 45px 0 26px 0;
+}
+#footer .footer-body .footer-infor li:not(:last-child){
+    border-right: 1px solid #b8b8b8;
+}
+#footer .footer-body .footer-service>li{
+    float: left;
+    width: 144px;
+    margin-right: 51px;
+}
+#footer .footer-body .footer-service li ul li{
+    line-height: 24px;
+}
+#footer .footer-body .footer-service h4{
+    line-height: 30px;
+}
+#footer .footer-body .footer-service h5{
+    line-height: 26px;
+    padding-bottom: 10px;
+}
+#footer .footer-body .footer-service li ul li a{
+    color: #808080;
+}
+#footer .copyright{
+    height: 120px;
+}
 
 /* 顶部搜索框 */
 #topsearch{
@@ -365,9 +434,13 @@ body{
     top:0px;
     left: 0px;
     width: 100%;
-    height: 50px;
-    background-color: #ff6600;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.5);
     display: none;
+}
+#topsearch .searchbox{
+    margin-top: -6px;
+    margin-right: 20px;
 }
 /* 回到顶部 */
 #topback{
@@ -380,6 +453,5 @@ body{
     background: url(../images/gototop_05.jpg)
 }
 
-/* 购物车加减 */
 
 

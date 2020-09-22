@@ -19,7 +19,7 @@ function lunbo(selector,boxh,w,h){
 //文档加载事件
 $(function (){
     lunbo('#slider',420,1000,420)
-    //  lunbo('#slider2',285,955,285)
+     lunbo('#slider2',285,955,285)
      lunbo('#slider3',300,455,300)
      lunbo('#slider4',300,455,300)
      lunbo('#slider5',300,455,300)
@@ -64,4 +64,35 @@ $(function(){
     diffBox();
     //定时器
     let timeId= setInterval(diffBox,1000);
+})
+
+
+/* 楼层 */
+$('#floor li').hover(function(){
+    $(this).css({
+        'backgroundColor':$(this).attr('bgc1'),
+        'backgroundPositionX':-39,
+         width:40
+    })
+},function(){
+    $(this).css({
+        'backgroundColor':'',
+        'backgroundPositionX':0,     
+        width:0                   
+    })
+})
+$('#floor li').click(function(){
+    $('html,body').animate({scrollTop:$('.commodity').eq($(this).index()).offset().top},500)
+})
+
+/*领劵中心  */
+$('#center .qrcode-c').hover(function(){
+    $('#center .qrcode-b').stop().fadeIn()
+},function(){
+    $('#center .qrcode-b').stop().fadeOut()        
+})
+
+/* 选项卡 */
+$('.contain3 span').hover(function(){
+    $(this).addClass('spancur').siblings().removeClass('spancur')
 })
