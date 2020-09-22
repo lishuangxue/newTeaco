@@ -1,0 +1,132 @@
+
+/* 登录 */
+#login{
+    position: relative;
+    height: 500px;
+    background:url(../images/images/b2_06.jpg) center 0px  no-repeat;
+}
+#login .qrcode{
+    width: 350px;
+    height: 370px;
+    background-color: #feeceb;
+    position: absolute;
+    top: 65px;
+    right: 195px;
+    opacity: 0.9;
+}
+
+#login .qrcode .style{
+    position: relative;
+    line-height: 55px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+#login .qrcode .style a{
+    display: block;
+    width: 175px;
+}
+#login .qrcode .style span{
+    position: absolute;
+    top:0px;
+    left: 175px;
+    color: #E0E0E0;
+}
+#login .saoma {
+    position: relative;
+}
+#login .saoma img.ma1{
+    position: absolute;
+    top: 52px;
+    left: 26px;
+}
+#login .saoma img.ma2{
+    position: absolute;
+    top: 42px;
+    left: 194px;
+}
+#login .saoma span{
+    position: absolute;
+    top: 245px;
+    left: 79px;
+}
+/* 账户登录 */
+
+#login  .account{
+    display: none;
+}
+#login  .account form{
+    margin-top: 45px;
+    position: relative;
+}
+#login  .account form section{
+    position: absolute;
+    width: 43px;
+    height: 47px;
+    box-sizing: border-box;
+    top: 2px;
+    left: 35px;
+    background: url(../images/pwd-icons-new.png) 0px 0px no-repeat;
+}
+#login  .account form .pwdlogo{
+    top: 63px;
+    background: url(../images/pwd-icons-new.png) -48px 0px no-repeat;
+    
+}
+#login  .account form  img{
+    width: 23px;
+    height: 25px;
+    position: absolute;
+    top: 8px;
+    left: 287px;
+    display: none;
+}
+#login  .account form .climg{
+    top:70px;
+}
+#login  .account form input{
+    width: 280px;
+    height: 39px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+
+}
+#login  .account form .autlogin{
+    width: 20px;
+    height: 15px;
+}
+#login  .account form .lbox{
+    width: 281px;
+    margin-left: 35px;
+    position: relative;
+}
+#login  .account form .lbox span{
+    position: absolute;
+    top: 0px;
+    left: 24px;
+}
+#login  .account .now{
+    line-height: 40px;
+    border-top: 1px solid #E0E0E0;
+    position: relative;
+}
+
+/* 验证  */
+label{
+    color: red;
+}
+#login .account .userbox label{
+    position: absolute;
+    top: 44px;
+    left: 72px;
+    width: 142px;
+    font-size: 13px;    
+}
+#login .account .pwdbox label{
+    position: absolute;
+    top: 104px;
+    left: 18px;
+    width: 235px;
+    font-size: 13px;
+}

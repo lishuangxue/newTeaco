@@ -1,0 +1,102 @@
+#banner{
+    height: 473px;
+    margin-top: 1px;
+    background: url(../images/images/bn_02.jpg) center no-repeat;
+}
+
+/* 内容 */
+#contain{
+    height: 2510px;
+    background-color: #f7f7f7;
+}
+#contain .contain1-b img{
+	width: 285px;
+	height: 125px;
+}
+#contain .contain1-b img:not(:last-child){
+    margin-right: 10px;
+}
+/* 内容2*/
+#contain .contain2 .nv{
+    height: 438px;
+    width: 914px;
+}
+/*   女装销量   */
+.rightbook{
+    width: 284px;
+    height: 438px;
+    background-color: #FFF;
+}
+.rightbook .righttitle.currt{
+    display: none
+}
+.rightbook .rightbox img{
+    margin-right: 10px;
+}
+.rightbook .rightbox{
+    display: none;
+}
+.rightbook .rightbox.currb{
+    display: block;
+}
+.rightbook .rightbox p{
+    width: 126px;
+    height: 115px;
+    line-height: 20px;
+}
+.rightbook  ul {
+    width: 260px;
+    margin-left: 24px;
+}
+.rightbook  ul li{
+    border-bottom: 1px solid #bfbfbf;
+    position: relative;
+    line-height: 47px;
+}
+.rightbook li span{
+    position: absolute;
+    top:0px;
+    left:-20px;
+    margin-left: 5px;
+}
+.rightbook  ul li:last-child{
+    border-bottom:none;
+}
+/* 品牌专区 */
+#contain .brand{
+	width: 1090px;
+    margin: 0 auto;
+}
+#contain .brand img{
+    width: 545px;
+    height: 275px;
+    margin: 0px 40px 45px 0px;
+}
+#contain .brand .brand-r{
+    width: 427px;
+}
+#contain .brand .brandbox{
+	width: 159px;
+	height: 26px;
+    border:1px solid #b8b8b8;
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 20px;
+}
+#contain .go{
+    width: 100%;
+    height: 250px;
+}
+#contain .go li{
+    width: 290px;
+    height: 250px;
+    float: left;
+    margin-right: 10px;
+}
+#contain .go li p{
+    line-height: 32px;
+}
+#contain .go img{
+	width: 285px;
+	height: 170px;
+}

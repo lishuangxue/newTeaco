@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 引入重置css -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- 引入公用样式 -->
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 引入当前样式 -->
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+    <!-- 1.头部 -->
+    <div id="header">
+
+        <!-- 顶部 -->
+        <div class="top bgc10 clearfix fs14">
+            <div class="wrapper">
+                <span class="lego cfff ">乐购www.legou.com</span> 
+
+                <div class="fr cfff">
+                    欢迎光临<a href="./index.html" class="cff9">乐购</a>
+                    请<a href="./login.html" class="cff9">登录</a> |
+                    <a href="./register.html"  class="cff9">注册</a> 
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 乐购logo -->
+        <div class="wrapper">
+            <img src="./images/images/newlogo_02.jpg" alt="" class="legoulogo">
+        </div> 
+
+        <!-- 咨询电话 -->
+        <div class="wrapper clearfix mb12">
+                <p class="fr mt10 mr15">
+                    <img src="./images/images/tel_03.jpg" alt="">
+                </p>  
+        </div>
+
+
+    </div>
+
+    <!-- 2.注册 -->
+    <div id="register">
+        <div class="wrapper">
+            <div class="registerbox">
+
+                    <ul class="registerbox-head clearfix txtal">
+                        <li class="fs18 cd5d licur"> <span class="scur"> 1 </span>&emsp;设置用户名 </li>
+                        <li class="fs18 cd5d"> <span>2 </span>&emsp;填写账号信息 </li>
+                        <li class="fs18 cd5d"> <span>√</span>&emsp;注册成功 </li>
+                    </ul>
+                    <!-- 同意协议 -->
+                    <div class="register-body person divcur">
+                        <div class="ml25 mt10">                         
+                            <h3 class="fs16 c666 lh29">注册协议</h3>
+                            <p> <span class="c8a8">【审慎阅读】</span> 您在申请注册流程中点击同意前，应当认真阅读以下协议。<a>请您务必审慎阅读、充分理解协议中相关条款内容，其中包括：</a></p>
+
+                            <p>1、<a>与您约定免除或限制责任的条款</a>；<br>
+    
+                            2、<a>与您约定法律适用和管辖的条款</a> ；<br>
+                                    
+                            3、<a>其他以粗体下划线标识的重要条款</a>。
+                            </p>
+
+                            <p> 如您对协议有任何疑问，可向平台客服咨询。</p>
+
+                            <p> <span class="c8a8">【特别提示】</span> 当您按照注册页面提示填写信息、阅读并同意协议且完成全部注册程序后，即表示您已充分阅读、理解并接受协议的全部内容。如您因平台服务与淘宝发生争议的，适用《淘宝平台服务协议》处理。如您在使用平台服务过程中与其他用户发生争议的，依您与其他用户达成的协议处理。</p>
+
+                            <p>
+                                 <a >  阅读协议的过程中，如果您不同意相关协议或其中任何条款约定，您应立即停止注册程序。</a> </p>
+                            <p class="cff9">平台服务协议<br>
+
+                                    隐私权政策<br>
+                                    
+                                    法律声明 <br>
+                                    
+                                    支付宝及客户端服务协议</p>
+                            <a class="agreebtn"> 同意协议</a>
+                       </div>
+                    </div>
+
+                    <!-- 填写注册信息 -->
+                    <div class="message  person">
+                            <form action="#"  id="signupForm" class="txtal">
+                                    <section>
+                                        <p>用户名</p>
+                                        <input type="username" name="username" id="username" class="c666" placeholder="您的账户名和登录名" >
+                                        <img src="./images/delete.png" alt="" class="delimg">                
+                                    </section>
+                        
+                                    <section>
+                                        <p>设置密码</p>                
+                                        <input type="password"  name="pwd" id="pwd" class="c666"  placeholder="建议设置两种字符密码"  >
+                                        <img src="./images/close.png" alt="" class="climg">
+                                    </section>
+                        
+                                    <section>
+                                        <p>确认密码</p>
+                                        <input type="password"  name="repwd" id="repwd"   class="c666" placeholder="再次输入密码">
+                                        <img src="./images/close.png" alt="" class="climg">
+                                    </section>
+                        
+                                    <section>
+                                        <p>中国+86</p>
+                                        <input type="text"  name="telnumber" id="telnumber"  class="c666"  placeholder="建议使用常用手机号" >
+                                        <img src="./images/delete.png" alt=""  class="delimg">                
+                                    </section>
+                        
+                                    <section>
+                                        <p>验证码</p>
+                                        <input type="text"  name="sendbtn" id="sendbtn"  class="c666"  placeholder="请输入验证码" > 
+                                        <span class="bea8 fs28 cfff">4E7R</span>                            
+                                    </section>
+                                    
+                                    <section>
+                                        <p class="fs16">手机验证码</p>
+                                        <input type="text"  name="sendphone" id="sendphone"  class="c666"  placeholder="输入手机验证码" >             
+                                        <span>获取验证码</span>            
+                                    </section>
+                        
+                                    <section>
+                                        <p>
+                                             <input type="checkbox" name="agree" id="agree">我已阅读并同意 <a href="#" class="cff6">《乐购用户注册协议》</a> 
+                                        </p>  
+                        
+                                    </section>
+                                    <input type="button"  name="btn" id="btn" class="bgff cfff fs28" value="立  即  注  册">
+                             </form>
+                    </div>
+
+                    <!-- 登录成功 -->
+                    <div class="succeed  person">
+                        <img src="./images/images/yes_03.jpg" alt="">
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. 页脚 -->
+    <div id="footer">
+        <div class="footer-body">
+            <div class="wrapper">
+                <ul class="footer-infor clearfix">
+                    <li class="clearfix">
+                        <p class="fl mr15"><img src="./images/img25.jpg" alt=""></p> 
+                        <p class="fl fs20 c333 lh29">正品保障 <br>  <span class="c9f9 fs14">正品行货 放心选购 </span> </p>
+                    </li>
+
+                    <li class="clearfix">
+                        <p class="fl mr15"><img src="./images/img27.jpg" alt=""></p> 
+                        <p class="fl fs20 c333 lh29 " >满86包邮 <br>  <span class="c9f9 fs14">满86元 免运费 </span> </p>
+                    </li>
+
+                    <li class="clearfix">
+                        <p class="fl mr15"><img src="./images/img26.jpg" alt=""></p> 
+                        <p class="fl fs20 c333 lh29">售后无忧 <br>  <span class="c9f9 fs14">七天无理由退货 </span> </p>
+                    </li>
+
+                    <li class="clearfix">
+                        <p class="fl mr15"><img src="./images/img30.jpg" alt=""></p> 
+                        <p class="fl fs20 c333 lh29">准时送达 <br>  <span class="c9f9 fs14">收货时间有你做主 </span> </p>
+                    </li>
+                </ul>
+
+                <ul class="footer-service clearfix ml30 pt30">
+                    <li> 
+                        <h4 class="fs18">新手入门</h4>
+                        <ul class="fs16">
+                            <li> <a href="#">购物流程</a>  </li>
+                            <li> <a href="#">会员制度</a> </li>
+                            <li> <a href="#">订单查询</a> </li>
+                            <li> <a href="#">服务协议及隐私说明</a> </li>
+                            <li> <a href="#"> 网站地图</a></li>
+                        </ul>
+                    </li>
+
+                    <li> 
+                        <h4 class="fs18">支付方式</h4>
+                        <ul class="fs16">
+                            <li> <a href="#">货到付款</a>  </li>
+                            <li> <a href="#">网上支付</a> </li>
+                            <li> <a href="#">礼品卡支付</a> </li>
+                            <li> <a href="#">其他支付</a> </li>
+                        </ul>
+                    </li>
+
+                    <li> 
+                        <h4 class="fs18">配送服务</h4>
+                        <ul class="fs16">
+                            <li> <a href="#">配送进度查询</a>  </li>
+                            <li> <a href="#">商品验货与签收</a> </li>
+                        </ul>
+                    </li>
+
+                    <li> 
+                        <h4 class="fs18">相关规则</h4>
+                        <ul class="fs16">
+                            <li> <a href="#">平台规则</a>  </li>
+                            <li> <a href="#">退款货政策</a> </li>
+                            <li> <a href="#">发票制度</a> </li>
+                            <li> <a href="#">帮助中心</a> </li>
+                        </ul>
+                    </li>
+
+                    <li  class="txtal">
+                        <h5 class="c333 fs18">App更优惠</h5> 
+                        <img src="./images/qryhd.png" alt="">
+                    </li>
+
+                    <li  class="txtal">
+                        <h5 class="c333 fs18">加微信查订单</h5> 
+                        <img src="./images/qryhd.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright bgf4">
+            <div class="wrapper">
+                <p class="txtal c808 lh24 pt10">
+                        沪ICP备XXXXXXXXX号 | 经营证照 | 互联网药品信息服务资格证(沪)-经营性-2017-0006 | 违法和不良信息举报电话：XXX-XXXXXXXX | 沪B2-XXXXXXX | <br>
+                        沪公网安备 XXXXXXXXX号 | 友情链接 | 出版物经营许可证 | 增值电信业务经营许可证
+                </p>
+                <p class="txtal pt15">
+                    <img src="./images/img28.jpg" alt="">
+                    <img src="./images/img23.jpg" alt="">
+                    <img src="./images/img35.png" alt="">
+                    <img src="./images/img24.png" alt="">
+                    <img src="./images/img4.jpg" alt="">
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 引入jQuery -->
+    <script src="./lib/jquery.js"></script>
+    <!-- 引入表单验证插件 -->
+    <script src="./plugin/form/jquery.validate.min.js"></script>
+    <!-- 引入公用js -->
+    <script src="./js/common.js"></script>
+    <!-- 引入当前页面的js -->
+    <script src="./js/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+/* 同意协议 */
+
+#register{
+    height: 780px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #b8b8b8;
+}
+#register .registerbox{
+    width: 996px;
+    height: 700px;
+    background-color: #fff;
+    margin: 30px auto;
+}
+#register .registerbox .registerbox-head{
+    height: 50px;
+    width: 840px;
+    margin: 0 auto;
+    padding-top: 10px;
+    border-bottom: 1px solid #b8b8b8;
+}
+#register .registerbox .registerbox-head span{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #ccc;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 24px;
+    color: #fff;
+}
+#register .registerbox .registerbox-head  li{
+    float: left;
+    width: 240px;
+    margin-left: 22px;
+    line-height: 39px;
+}
+#register .registerbox .register-body {
+	width: 700px;
+    height: 533px;
+    border: 1px solid #b8b8b8;
+    margin: 45px auto;
+    border-top: 2px solid #ff9c00;
+    color: #b8b8b8
+}
+
+#register .registerbox .register-body a{ 
+    text-decoration: underline;
+    color: #8a8a8a;
+}
+#register .registerbox .register-body .agreebtn{
+    width: 180px;
+	height: 38px;
+	background-color: #ff9c00;
+	border-radius: 15px;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 38px;
+    margin-left: 218px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+#register .registerbox .register-body p{
+    line-height: 30px;
+}
+
+
+/* 表单 */
+/* 登录 */
+#register form{
+    width: 400px;
+    height: 540px;
+    margin: 50px auto;
+    position: relative;
+}
+#register form input:not(#agree){
+	width: 400px;
+    height: 44px;
+    margin-bottom: 40px;
+    outline: none;
+    border: 1px solid #b8b8b8;
+    text-indent: 127px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);    
+}
+#register form #agree{
+    width: 17px;
+}
+#register form  P{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 14px;
+}
+
+
+section{
+    position: relative;
+}
+label{
+    color: red;
+    text-align: none;
+    line-height: 60px;
+    position: absolute;
+    top: -17px;
+    right: -138px;
+}
+section img{
+    width: 25px;
+    height: 28px;
+    position: absolute;
+    top: 9px;
+    right: 7px;
+    display: none;
+}
+section span{
+    text-align: center;
+    display: block;
+    width: 91px;
+    background-color: #e6e6e6;
+    position: absolute;
+    right: 0px;
+    bottom: 42px;
+    line-height: 42px;
+}
+#register form section p:not(:last-child){
+    position: absolute;
+    top: 11px;
+    left: 12px;
+    font-size: 22px;
+    color: #666666;
+}
+#register  form #btn{
+    text-indent: 10px!important
+}
+
+#register .succeed{
+    margin-left: 70px;
+}
+
+
+
+/*选项卡效果 */
+.scur{
+    background-color: #ff9c00!important;
+}
+.licur{
+    color: #333;
+    border-bottom: 2px solid #ff9c00;
+    padding-bottom: 10px;
+}
+.person{
+    display: none;
+}
+.scur{
+    display: block;
+}
+.divcur{
+    display: block
+}
