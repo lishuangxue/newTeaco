@@ -1,0 +1,219 @@
+/*2. 商品分类和banner */
+/* ---左边的ul-- */
+#banner .menulist{
+    width: 200px;
+    height: 420px;
+    background-color: #aa81ca;
+    position: relative;
+}
+
+#banner .menulist li{
+    line-height: 28px;
+}
+
+#banner .menulist li:hover .menu{
+    display: block;
+    background-color: #aa81ca;
+    
+}
+#banner .menulist li:hover a{
+    color: black;
+}
+#banner .menulist li:hover p{
+    width: 180px;
+    background-color: #ffffff;
+    border-color: #f60;
+    border-right:0 ;
+}
+
+#banner .menulist li .menu{
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 486px;
+    height: 418px;
+    background-color: #fff;
+    display: none;
+    border: 1px solid #f60;
+    z-index: 101;
+}
+#banner .menulist li p{
+    position: relative;
+    z-index: 102;
+    border: solid 1px transparent;
+    padding-left: 20px;
+}
+#banner .menulist li a{
+    color: #fff;
+    font-family: MicrosoftYaHei;
+}
+
+/* 二级菜单 */
+#banner .menu{
+    width: 535px;
+    height: 400px;
+    position: absolute;
+    top: -1px;
+    left: 198px;
+    padding-left: 55px;
+    border:1px solid #ff6600;
+    display: none;
+    background-color: #ffff;
+    z-index: 102;   
+}
+#banner .menu ul{
+    width: 485px;
+}
+#banner .menu h4 a{
+    font-size: 12px;
+    margin-right: 30px;
+}
+#banner .menu h2{
+    color: #ff6600;
+    font-size: 14px;
+    border-bottom: 2px solid #e6e6e6;
+    margin-top: 2px;
+    line-height: 18px;
+}
+#banner .menu ul>li>a{
+    margin-right: 6px;
+    font-size: 12px;
+}
+#banner .menu ul li{
+    line-height: 20px;
+}
+
+
+/* banner */
+#banner{
+    background-color: #510596;
+    line-height: 420px;
+    position: relative;
+}
+#banner .banner-r{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 83px;
+    height: 420px;
+    background-color: #323cb8;
+}
+#banner .lunbo img{
+    width: 1000px;
+    height: 420px;
+}
+
+/* 3.内容*/
+/* 第一部分 */
+#contain .contain1{
+    height: 630px;
+    background-color: #f4f4f4;
+}
+#contain .contain1 .xiaomi img{
+    width: 285px;
+    height: 154px;
+    margin-right: 9px;
+}
+/* 秒杀 */
+#contain .contain1 .seckillbox{
+    position: relative;
+}
+#contain .contain1 .seckilltime #timeBox{
+    position: absolute;
+    top: 209px;
+    left: 27px;
+}
+#contain .contain1 .seckilltime #timeBox1{
+    position: absolute;
+    top: 209px;
+    left: 100px;
+}
+#contain .contain1 .seckilltime #timeBox2{
+    position: absolute;
+    top: 209px;
+    left: 177px;
+}
+/* 轮播 */
+#contain .contain1 .seckillbox .lul img{
+    width: 198px!important;
+    height: 198px!important;
+}
+#contain .contain1 .seckillbox .lul li{
+    width: 228px;
+    height: 285px;
+    background-color: #fff;
+    float: left;
+    line-height: 24px;
+}
+#contain .contain1 .seckillbox .lul li a{
+    display: inline-block;
+}
+#contain .contain1 .seckillbox .lul li:not(:last-child){
+    margin-right: 15px;
+}
+/* 内容2 */
+#contain .contain2{
+    height: 654px;
+}
+/* 内容3 */
+#contain .contain3{
+    height: 2664px;
+}
+.spancur{
+	color: #ffbd0d;
+    width: 30px;
+    height: 20px;
+    border-bottom: 1px solid #ffbd0d;
+    padding-bottom: 7px;
+}
+#contain .contain3 .conduct li h2 span{
+    margin-right: 20px;
+}
+/* 左边 */
+#contain .contain3 .con-l{
+    width: 260px;
+	height: 460px;
+}
+#contain .contain3 .con-l ul{
+    width: 230px;
+    height: 100px;
+    margin: 15px;
+}
+#contain .contain3 .con-l li{
+    float: left;
+    width: 68px;
+    height: 24px;
+    border: 1px solid #6f6f6f;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 13px;
+    margin-left: 6px;
+    font-size: 12px;
+}
+/* 中间 */
+#contain .contain3 .con-m{
+    width: 455px;
+	height: 460px;
+}
+/* 右边 */
+#contain .contain3 .con-r{
+    width:461px;
+	height: 460px;
+}
+#contain .contain3 .con-r li{
+	width: 220px;
+    height: 220px;
+    background-color: #fff;
+    line-height: 28px;
+    padding-top: 7px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+/* 底部 */
+#contain .contain3 .con-b img{
+    width: 127px;
+    height: 65px;
+    margin-top: 10px;
+}

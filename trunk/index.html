@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 引入重置css -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- 引入公用样式 -->
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 引入插件css -->
+    <link rel="stylesheet" href="./plugin/banner-lubbo/css/slider.css">
+    <!-- 引入当前样式 -->
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <!-- 1.头部 -->
+    <div id="header">
+
+        <!-- 顶部 -->
+        <div class="top bgc10 clearfix fs14">
+            <div class="wrapper">
+                <span class="lego cfff ">乐购www.legou.com</span> 
+
+                <div class="fr cfff">
+                    欢迎光临<a href="#" class="cff9">乐购</a>
+                    请<a href="./login.html" class="cff9">登录</a> |
+                    <a href="./register.html"  class="cff9">注册</a> 
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 乐购logo -->
+        <div class="wrapper">
+            <img src="./images/images/newlogo_02.jpg" alt="" class="legoulogo">
+        </div>
+
+        <!-- 搜索框和购物车订单 -->
+        <div class=" wrapper searchbox clearfix">
+
+            <div class="carbox  clearfix fr">
+                <!-- 购物车 -->
+                <div class="car fl fs14 cfff ">
+                <a href="./shopcar.html" class="cfff">购物车<span class="cfff"> 0</span></a> 
+                </div>
+                <!-- 订单 -->
+                <div class="bgeb fs16 c808 fl order ">我的订单</div>
+
+            </div>
+            <!-- 搜索框 -->
+            <form action="#" class="formhbox fr ">
+                <input type="text" placeholder="请输入搜索的商品名" class="txt cd9d">
+                <input type="submit" class="btn" value="">
+            </form>
+            
+        </div>
+
+        <!-- 导航栏 -->
+        <div class="nav wrapper clearfix">
+        <ul class="fr">
+            <li><a href="#">图书</a></li>
+            <li><a href="#">电子书</a></li>
+            <li><a href="#">原创文学</a></li>
+            <li><a href="#">服装</a></li>
+            <li><a href="#">运动户外</a></li>
+            <li><a href="#">孕婴童</a></li>
+            <li><a href="#">家具</a></li>
+            <li><a href="#">创意文具</a></li>
+            <li><a href="#">地方特产</a></li>
+            <li><a href="#">海外购</a></li>
+            <li><a href="#">电器城</a></li>
+        </ul>
+        </div>
+
+    </div>
+    
+    <!-- 2.商品分类和banner -->
+    <div id="banner">
+        <div class="wrapper clearfix">
+             <!-- 分类 -->
+            <ul class="menulist fl">
+                <li>
+                    <p>
+                        <a href="#">图书、电子书、童书</a>
+                    </p>
+                    <div class="menu">
+                            <h4>
+                                    <a href="#">图书馆>></a>
+                                    <a href="#">儿童书馆>></a>
+                                    <a href="#">电子书馆>></a>
+                                </h4>
+                                <!-- ul>(li>h2{文艺}+a{小说}+a{文学}+a{传记}+a{青春}+a{动漫}+a{艺术}+a{摄影}+a{明星})*8 -->
+                                <ul>
+                                    <li>
+                                        <h2>文艺</h2>
+                                        <a href="#">小说</a>
+                                        <a href="#">文学</a>
+                                        <a href="#">传记</a>
+                                        <a href="#">青春</a>
+                                        <a href="#">动漫</a>
+                                        <a href="#">艺术</a>
+                                        <a href="#">摄影</a>
+                                        <a href="#">明星</a>
+                                    </li>
+        
+                                    <li>
+                                        <h2>人文社科</h2>
+                                        <a href="#">小说</a>
+                                        <a href="#">文学</a>
+                                        <a href="#">传记</a>
+                                        <a href="#">青春</a>
+                                        <a href="#">动漫</a>
+                                        <a href="#">艺术</a>
+                                        <a href="#">摄影</a>
+                                        <a href="#">明星</a>
+                                        <a href="#">历史</a>
+                                        <a href="#">政治军事</a>
+                                        <a href="#">文化</a>
+                                        <a href="#">心理学</a>
+                                        <a href="#">法律</a>
+                                    </li>
+        
+                                    <li>
+                                        <h2>管理</h2>
+                                        <a href="#">小说</a>
+                                        <a href="#">文学</a>
+                                        <a href="#">传记</a>
+                                        <a href="#">青春</a>
+                                        <a href="#">动漫</a>
+                                        <a href="#">艺术</a>
+                                        <a href="#">摄影</a>
+                                        <a href="#">明星</a>
+                                        <a href="#">经济</a>
+                                        <a href="#">投资理财</a>
+                                        <a href="#">金融</a>
+                                        <a href="#">互联网</a>
+                                    </li>
+        
+                                    <li>
+                                        <h2>励志</h2>
+                                        <a href="#">小说</a>
+                                        <a href="#">文学</a>
+                                        <a href="#">传记</a>
+                                        <a href="#">青春</a>
+                                        <a href="#">动漫</a>
+                                        <a href="#">艺术</a>
+                                        <a href="#">摄影</a>
+                                        <a href="#">明星</a>
+                                        <a href="#">励志成功</a>
+                                        <a href="#">职场</a>
+                                        <a href="#">心灵修养</a>
+                                    </li>
+        
+                                    <li>
+                                        <h2>教育</h2>
+                                        <a href="#">中小学教辅</a>
+                                        <a href="#">考试</a>
+                                        <a href="#">大中专教辅</a>
+                                        <a href="#">外语</a>
+                                        <a href="#">工具书</a>
+                                        <a href="#">公务员</a>
+                                        <a href="#">考研</a>
+                                    </li>
+        
+                                    <li>
+                                        <h2>科技</h2>
+                                        <a href="#">科普读物</a>
+                                        <a href="#">计算机\网络</a>
+                                        <a href="#">医学</a>
+                                        <a href="#">工业技术</a>
+                                        <a href="#">建筑</a>
+                                        <a href="#">自然科学</a>
+                                    </li>
+        
+                                    <li>
+                                        <h2>生活</h2>
+                                        <a href="#">两性</a>
+                                        <a href="#">孕期</a>
+                                        <a href="#">育儿</a>
+                                        <a href="#">保健</a>
+                                        <a href="#">运动</a>
+                                        <a href="#">休闲</a>
+                                        <a href="#">旅游</a>
+                                        <a href="#">美食</a>
+                                        <a href="#">美妆</a>
+                                        <a href="#">家居</a>
+                                        <a href="#">生活</a>
+                                        <a href="#">健身</a>
+                                    </li>
+        
+                                    <li>
+                                        <h2>刊\进口书</h2>
+                                        <a href="#">英文进口书</a>
+                                        <a href="#">杂志</a>
+                                        <a href="#">港台进口书</a>
+                                        <a href="#">进口艺术画册</a>
+                                    </li>
+                                </ul>
+                    </div>
+                </li>
+                <li>
+                    <p> <a href="#">创意文具</a></p>
+                    <div class="menu">2菜单</div>
+    
+                </li>
+                <li>
+                    <p><a href="#">服饰、内衣</a></p>
+                </li>
+                <li>
+                    <p><a href="#">鞋靴、箱包</a></p>
+                </li>
+                <li>
+                    <p><a href="#">运动户外</a></p>
+                </li>
+                <li>
+                    <p><a href="#">孕、婴、童</a></p>
+                </li>
+                <li>
+                    <p><a href="#">家居、家纺、汽车</a></p>
+                </li>
+                <li>
+                    <p><a href="#">家具、家装、康体</a></p>
+                </li>
+                <li>
+                    <p><a href="#">美妆、个人护理、成人</a></p>
+                </li>
+                <li>
+                    <p><a href="#">食品、茶酒、生鲜</a></p>
+                </li>
+                <li>
+                    <p><a href="#">腕表、珠宝、眼镜</a></p>
+                </li>
+                <li>
+                    <p><a href="#">手机、数码</a></p>
+                </li>
+                <li>
+                    <p><a href="#">电脑办公</a></p>
+                </li>
+                <li>
+                    <p><a href="#">家用电器</a></p>
+                </li>
+    
+            </ul>
+            <!-- banner -->
+            <div class="lunbo fl">
+                    <div class="pptbox fl" id="slider">
+                            <ul class="innerwrapper">
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/img9.jpg" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/img7.jpg" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/img9.jpg" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/img7.jpg" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/img9.jpg" />
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="controls">
+                                <li class="current">1</li>
+                                <li>2</li>
+                                <li>3</li>
+                                <li>4</li>
+                                <li>5</li>
+                            </ul>
+                            <span class="btnleft"></span>
+                            <span class="btnright"></span>
+                        </div>
+            </div>
+        </div>
+        
+        <div class="banner-r ">
+        </div>
+    </div>
+
+    <!-- 3.内容 -->
+    <div id="contain">
+        <!-- 第一部分内容 -->
+        <div class="contain1 pt20">
+            <div class="wrapper">
+
+                <div class="xiaomi">
+                    <img src="./images/img11.jpg" alt="">
+                    <img src="./images/img32.jpg" alt="">
+                    <img src="./images/img7.jpg" alt="">
+                    <img src="./images/images/xiaomi_03.jpg" alt="">
+                </div>
+
+                <img src="./images/images/er_07.jpg" alt="" class="mt20 mb20">
+
+                <div class="seckillbox mt10 clearfix">
+                    <div class="seckill fl">
+                        <img src="./images/images/miao_03.jpg" alt="">
+                        <div class="seckilltime fs24 cfff">
+                            <div id="timeBox"></div>
+                            <div id="timeBox1"></div>
+                            <div id="timeBox2"></div>
+                        </div>
+                    </div>
+
+                    <!-- 轮播 -->
+                    <ul class=" clearfix lul">
+                        <script>
+                            for(let i=0;i<4;i++){
+                                document.write(`
+                                        <li class="lh24">
+                                            <p class="txtal pt15 mb10"><img src="./images/img8.jpg" alt=""></p>
+                                            <p class="c666 tindent15">小米小爱音箱 Play</p>
+                                            <p class="cred fs16 tindent15">¥129.00 <a class="cb2b tline fs12">¥230.00</a> </p>
+                                        </li>       
+                                `)
+                            }
+                        </script>
+                    </ul> 
+                </div>
+            </div>
+        </div>
+
+        <!-- 第二部分内容 -->
+        <div class="contain2">
+            <div class="wrapper">
+                <img src="./images/images/miao.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- 第三部分内容 -->
+        <div class="contain3 bd bgf4">
+            <div class="wrapper">
+
+                <ul class="conduct">
+                    <!-- 服装配饰 -->
+                    <li class="commodity clearfix">
+                        <!-- 标题 -->
+                        <h2 class="clearfix mt40 mb20"> 
+                            <img src="./images/images/images/cloth_06.jpg" alt="" class="fl">
+                           <p class="fr fs16 c808"> <span class="spancur">热销内衣</span>  <span>精品男装</span> <span>童装</span> </p> 
+                        </h2>
+                        <!-- 左边 -->
+                        <div class="con-l bgcfff fl">
+                            <img src="./images/images/zhubao_09.jpg" alt="">
+                            <ul>
+                                <li><a href="#">女装</a></li>
+                                <li><a href="#">内衣</a></li>
+                                <li><a href="#">泳衣</a></li>
+                                <li><a href="#">功能箱包</a></li>
+                                <li><a href="#">户外运动</a></li>
+                                <li><a href="#">男装</a></li>
+                                <li><a href="#">女鞋</a></li>
+                                <li><a href="#">男鞋</a></li>
+                                <li><a href="#">全部分类</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- 中间 -->
+                        <div class="con-m fl ml15">
+                            <!-- 轮播 -->
+                            <div class="pptbox mb10" id="slider3">
+                                    <ul class="innerwrapper">
+                                        <li>
+                                            <a href="#">
+                                                <img src="./images/timg.jpg" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="./images/img7.jpg" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="./images/img9.jpg" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="./images/img7.jpg" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="./images/img9.jpg" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="controls">
+                                        <li class="current">1</li>
+                                        <li>2</li>
+                                        <li>3</li>
+                                        <li>4</li>
+                                        <li>5</li>
+                                    </ul>
+                                    <span class="btnleft"></span>
+                                    <span class="btnright"></span>
+                             </div>
+                             <img src="./images/images/images/ya_12.jpg" alt="">
+                        </div>
+
+                        <!-- 右边 -->
+                        <div class="con-r fr">
+                            <ul>
+                                <li class="txtal">
+                                    <a href="#">
+                                        <p class="c333 fs18">时尚精致女装</p>
+                                        <p class="c333 fs12">春夏女装99选3</p>
+                                        <p><img src="./images/img21.jpg" alt=""></p>
+                                    </a>
+                                </li>
+
+                                <li class="txtal">
+                                    <a href="#">
+                                        <p class="c333 fs18">大牌品质鞋包</p>
+                                        <p class="c333 fs12">大牌包不止五折</p>
+                                        <p><img src="./images/img20c.jpg" alt=""></p>
+                                    </a>
+                                </li>
+
+                                <li class="txtal">
+                                    <a href="#">
+                                        <p class="c333 fs18">魅力舒适内衣</p>
+                                        <p class="c333 fs12">CK文胸买二免一</p>
+                                        <p><img src="./images/img31.jpg" alt=""></p>
+                                    </a>
+                                </li>
+
+                                <li class="txtal">
+                                    <a href="#">
+                                        <p class="c333 fs18">型格潮流男装</p>
+                                        <p class="c333 fs12">阿玛尼低至3折</p>
+                                        <p><img src="./images/img22.jpg" alt=""></p>
+                                    </a>
+                                </li>
+
+                                    
+                            </ul>
+                        </div>
+
+                        <!-- 底部 -->
+                        <div class="con-b">
+                            <img src="./images/index15_13.jpg" alt="">
+                            <img src="./images/index15_14.jpg" alt="">
+                            <img src="./images/logo13_11.jpg" alt="">
+                            <img src="./images/logo13_12.jpg" alt="">
+                            <img src="./images/logo13_13.jpg" alt="">
+                            <img src="./images/logo13_14.jpg" alt="">
+                            <img src="./images/logo13_15.jpg" alt="">
+                            <img src="./images/logo13_16.jpg" alt="">
+                            <img src="./images/logo13_17.jpg" alt="">
+                        </div>
+                    </li>
+
+                    <!-- 母婴童装 -->
+                    <li class="commodity clearfix">
+                            <!-- 标题 -->
+                            <h2 class="clearfix mt40 mb20"> 
+                                <img src="./images/images/images/mu_24.jpg" alt="" class="fl">
+                                <p class="fr fs16 c808"> <span class="spancur">热销内衣</span>  <span>精品男装</span> <span>童装</span> </p> 
+                            </h2>
+                            <!-- 左边 -->
+                            <div class="con-l bgcfff fl">
+                                <img src="./images/images/images/gaotong_29.jpg" alt="">
+                                <ul>
+                                    <li><a href="#">女装</a></li>
+                                    <li><a href="#">内衣</a></li>
+                                    <li><a href="#">泳衣</a></li>
+                                    <li><a href="#">功能箱包</a></li>
+                                    <li><a href="#">户外运动</a></li>
+                                    <li><a href="#">男装</a></li>
+                                    <li><a href="#">女鞋</a></li>
+                                    <li><a href="#">男鞋</a></li>
+                                    <li><a href="#">全部分类</a></li>
+                                </ul>
+                            </div>
+    
+                            <!-- 中间 -->
+                            <div class="con-m fl ml15">
+                                <!-- 轮播 -->
+                                <div class="pptbox mb10" id="slider4">
+                                        <ul class="innerwrapper">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="./images/images/images/qian_31.jpg" />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="./images/img7.jpg" />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="./images/img9.jpg" />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="./images/img7.jpg" />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="./images/img9.jpg" />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul class="controls">
+                                            <li class="current">1</li>
+                                            <li>2</li>
+                                            <li>3</li>
+                                            <li>4</li>
+                                            <li>5</li>
+                                        </ul>
+                                        <span class="btnleft"></span>
+                                        <span class="btnright"></span>
+                                    </div>
+                                    <img src="./images/images/images/ya_12.jpg" alt="">
+                            </div>
+    
+                            <!-- 右边 -->
+                            <div class="con-r fr">
+                                <ul>
+                                    <li class="txtal">
+                                        <a href="#">
+                                            <p class="c333 fs18">时尚精致女装</p>
+                                            <p class="c333 fs12">春夏女装99选3</p>
+                                            <p><img src="./images/img21.jpg" alt=""></p>
+                                        </a>
+                                    </li>
+    
+                                    <li class="txtal">
+                                        <a href="#">
+                                            <p class="c333 fs18">大牌品质鞋包</p>
+                                            <p class="c333 fs12">大牌包不止五折</p>
+                                            <p><img src="./images/img20c.jpg" alt=""></p>
+                                        </a>
+                                    </li>
+    
+                                    <li class="txtal">
+                                        <a href="#">
+                                            <p class="c333 fs18">魅力舒适内衣</p>
+                                            <p class="c333 fs12">CK文胸买二免一</p>
+                                            <p><img src="./images/img31.jpg" alt=""></p>
+                                        </a>
+                                    </li>
+    
+                                    <li class="txtal">
+                                        <a href="#">
+                                            <p class="c333 fs18">型格潮流男装</p>
+                                            <p class="c333 fs12">阿玛尼低至3折</p>
+                                            <p><img src="./images/img22.jpg" alt=""></p>
+                                        </a>
+                                    </li>
+    
+                                        
+                                </ul>
+                            </div>
+    
+                            <!-- 底部 -->
+                            <div class="con-b">
+                                <img src="./images/index15_13.jpg" alt="">
+                                <img src="./images/index15_14.jpg" alt="">
+                                <img src="./images/logo13_11.jpg" alt="">
+                                <img src="./images/logo13_12.jpg" alt="">
+                                <img src="./images/logo13_13.jpg" alt="">
+                                <img src="./images/logo13_14.jpg" alt="">
+                                <img src="./images/logo13_15.jpg" alt="">
+                                <img src="./images/logo13_16.jpg" alt="">
+                                <img src="./images/logo13_17.jpg" alt="">
+                            </div>
+                     </li>
+
+                    <!-- 精致人生 -->
+                    <li class="commodity clearfix">
+                            <!-- 标题 -->
+                            <h2 class="clearfix mt40 mb20"> 
+                                <img src="./images/images/images/jing_27.jpg" alt="" class="fl">
+                               <p class="fr fs16 c808"> <span class="spancur">热销内衣</span>  <span>精品男装</span> <span>童装</span> </p> 
+                            </h2>
+                            <!-- 左边 -->
+                            <div class="con-l bgcfff fl">
+                                <img src="./images/images/images/gaotong2_35.jpg" alt="">
+                                <ul>
+                                    <li><a href="#">女装</a></li>
+                                    <li><a href="#">内衣</a></li>
+                                    <li><a href="#">泳衣</a></li>
+                                    <li><a href="#">功能箱包</a></li>
+                                    <li><a href="#">户外运动</a></li>
+                                    <li><a href="#">男装</a></li>
+                                    <li><a href="#">女鞋</a></li>
+                                    <li><a href="#">男鞋</a></li>
+                                    <li><a href="#">全部分类</a></li>
+                                </ul>
+                            </div>
+    
+                            <!-- 中间 -->
+                            <div class="con-m fl ml15">
+                                <!-- 轮播 -->
+                                <div class="pptbox mb10" id="slider5">
+                                        <ul class="innerwrapper">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="./images/images/images/guo_37.jpg" />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="./images/img7.jpg" />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="./images/img9.jpg" />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="./images/img7.jpg" />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="./images/img9.jpg" />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul class="controls">
+                                            <li class="current">1</li>
+                                            <li>2</li>
+                                            <li>3</li>
+                                            <li>4</li>
+                                            <li>5</li>
+                                        </ul>
+                                        <span class="btnleft"></span>
+                                        <span class="btnright"></span>
+                                 </div>
+                                 <img src="./images/images/images/ya_12.jpg" alt="">
+                            </div>
+    
+                            <!-- 右边 -->
+                            <div class="con-r fr">
+                                <ul>
+                                    <li class="txtal">
+                                        <a href="#">
+                                            <p class="c333 fs18">时尚精致女装</p>
+                                            <p class="c333 fs12">春夏女装99选3</p>
+                                            <p><img src="./images/img21.jpg" alt=""></p>
+                                        </a>
+                                    </li>
+    
+                                    <li class="txtal">
+                                        <a href="#">
+                                            <p class="c333 fs18">大牌品质鞋包</p>
+                                            <p class="c333 fs12">大牌包不止五折</p>
+                                            <p><img src="./images/img20c.jpg" alt=""></p>
+                                        </a>
+                                    </li>
+    
+                                    <li class="txtal">
+                                        <a href="#">
+                                            <p class="c333 fs18">魅力舒适内衣</p>
+                                            <p class="c333 fs12">CK文胸买二免一</p>
+                                            <p><img src="./images/img31.jpg" alt=""></p>
+                                        </a>
+                                    </li>
+    
+                                    <li class="txtal">
+                                        <a href="#">
+                                            <p class="c333 fs18">型格潮流男装</p>
+                                            <p class="c333 fs12">阿玛尼低至3折</p>
+                                            <p><img src="./images/img22.jpg" alt=""></p>
+                                        </a>
+                                    </li>
+    
+                                        
+                                </ul>
+                            </div>
+    
+                            <!-- 底部 -->
+                            <div class="con-b">
+                                <img src="./images/index15_13.jpg" alt="">
+                                <img src="./images/index15_14.jpg" alt="">
+                                <img src="./images/logo13_11.jpg" alt="">
+                                <img src="./images/logo13_12.jpg" alt="">
+                                <img src="./images/logo13_13.jpg" alt="">
+                                <img src="./images/logo13_14.jpg" alt="">
+                                <img src="./images/logo13_15.jpg" alt="">
+                                <img src="./images/logo13_16.jpg" alt="">
+                                <img src="./images/logo13_17.jpg" alt="">
+                            </div>
+                    </li>
+
+                    <!-- 家居生活 -->
+                    <li class="commodity clearfix">
+                            <!-- 标题 -->
+                            <h2 class="clearfix mt40 mb20"> 
+                                <img src="./images/images/images/jia_30.jpg" alt="" class="fl">
+                                <p class="fr fs16 c808"> <span class="spancur">热销内衣</span>  <span>精品男装</span> <span>童装</span> </p> 
+                            </h2>
+                            <!-- 左边 -->
+                            <div class="con-l bgcfff fl">
+                                <img src="./images/images/images/gaotong3_42.jpg" alt="">
+                                <ul>
+                                    <li><a href="#">女装</a></li>
+                                    <li><a href="#">内衣</a></li>
+                                    <li><a href="#">泳衣</a></li>
+                                    <li><a href="#">功能箱包</a></li>
+                                    <li><a href="#">户外运动</a></li>
+                                    <li><a href="#">男装</a></li>
+                                    <li><a href="#">女鞋</a></li>
+                                    <li><a href="#">男鞋</a></li>
+                                    <li><a href="#">全部分类</a></li>
+                                </ul>
+                            </div>
+    
+                            <!-- 中间 -->
+                            <div class="con-m fl ml15">
+                                <!-- 轮播 -->
+                                <div class="pptbox mb10" id="slider6">
+                                        <ul class="innerwrapper">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="./images/images/images/dapai_43.jpg" />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="./images/img7.jpg" />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="./images/img9.jpg" />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="./images/img7.jpg" />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="./images/img9.jpg" />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul class="controls">
+                                            <li class="current">1</li>
+                                            <li>2</li>
+                                            <li>3</li>
+                                            <li>4</li>
+                                            <li>5</li>
+                                        </ul>
+                                        <span class="btnleft"></span>
+                                        <span class="btnright"></span>
+                                    </div>
+                                    <img src="./images/images/images/ya_12.jpg" alt="">
+                            </div>
+    
+                            <!-- 右边 -->
+                            <div class="con-r fr">
+                                <ul>
+                                    <li class="txtal">
+                                        <a href="#">
+                                            <p class="c333 fs18">时尚精致女装</p>
+                                            <p class="c333 fs12">春夏女装99选3</p>
+                                            <p><img src="./images/img21.jpg" alt=""></p>
+                                        </a>
+                                    </li>
+    
+                                    <li class="txtal">
+                                        <a href="#">
+                                            <p class="c333 fs18">大牌品质鞋包</p>
+                                            <p class="c333 fs12">大牌包不止五折</p>
+                                            <p><img src="./images/img20c.jpg" alt=""></p>
+                                        </a>
+                                    </li>
+    
+                                    <li class="txtal">
+                                        <a href="#">
+                                            <p class="c333 fs18">魅力舒适内衣</p>
+                                            <p class="c333 fs12">CK文胸买二免一</p>
+                                            <p><img src="./images/img31.jpg" alt=""></p>
+                                        </a>
+                                    </li>
+    
+                                    <li class="txtal">
+                                        <a href="#">
+                                            <p class="c333 fs18">型格潮流男装</p>
+                                            <p class="c333 fs12">阿玛尼低至3折</p>
+                                            <p><img src="./images/img22.jpg" alt=""></p>
+                                        </a>
+                                    </li>
+    
+                                        
+                                </ul>
+                            </div>
+    
+                            <!-- 底部 -->
+                            <div class="con-b">
+                                <img src="./images/index15_13.jpg" alt="">
+                                <img src="./images/index15_14.jpg" alt="">
+                                <img src="./images/logo13_11.jpg" alt="">
+                                <img src="./images/logo13_12.jpg" alt="">
+                                <img src="./images/logo13_13.jpg" alt="">
+                                <img src="./images/logo13_14.jpg" alt="">
+                                <img src="./images/logo13_15.jpg" alt="">
+                                <img src="./images/logo13_16.jpg" alt="">
+                                <img src="./images/logo13_17.jpg" alt="">
+                            </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 楼层 -->
+
+    <!-- 页脚 -->
+    <div id="footer"></div>
+    <!-- 引入jQuery -->
+    <script src="./lib/jquery.js"></script>
+    <!-- 引入插件 -->
+    <script src="./plugin/banner-lubbo/lib/jquery.slidebox.js"></script>
+    <!-- 引入公用js -->
+    <script src="./js/common.js"></script>
+    <!-- 引入当前页面的js -->
+    <script src="./js/index.js"></script>
+</body>
+</html>

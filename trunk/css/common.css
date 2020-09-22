@@ -1,0 +1,385 @@
+@charset 'utf-8';
+
+body{
+    font-family: SimHei;
+    font-size: 14px;
+    color: #333333;
+}
+/* 版心 固定宽度，水平居中 */
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 设置浮动 */
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+/* 清除浮动 */
+.clear{
+    clear: both;
+}
+.clearfix:after{
+    content:'';
+    display: block;
+    height: 0;
+    clear: both;
+    zoom:1;
+}
+
+/* 字体颜色 */
+.ce6e{
+    color: #e6e6e6;
+}
+.cbfb{
+    color: #bfbfbf;
+}
+.cff6{
+    color: #ff6600;
+}
+.c808{
+    color: #808080;
+}
+.cfff{
+    color: #ffffff;
+}
+.cb9{
+    color: #b9b9b9;
+}
+.c333{
+    color: #333333;
+}
+.cred{
+    color: red;
+}
+.cfee{
+    color: #feef00;
+}
+.c4d4{
+    color: #4d4d4d;
+}
+.c666{
+    color: #666666;
+}
+.ca6a{
+    color: #a6a6a6;
+}
+.c646{
+    color: #646464;
+}
+.c343{
+    color: #343434;
+}
+.cfb2{
+    color: #fb2f2f;
+}
+.c818{
+    color: #818181;
+}
+.c6c6{	
+    color: #6c6c6c;
+}
+.c949{
+    color: #949494;
+}
+.c999{
+    color: #999999;
+}
+.cf83{
+    color: #f8380c;
+}
+.cf4b{
+    color: #f4b212;
+}
+.c468{
+    color: #468bfd;
+}
+.cfeb{
+    color:#feb80f
+}
+.cff9{
+    color: #ff9c00;
+}
+.c9f9{
+    color: #9f9f9f;
+}
+.cd9d{
+    color: #d9d9d9;
+}
+.cffb{
+    color: #ffbd0d;
+}
+/* 边框线 */
+.bd{
+    border:1px solid red
+}
+/* 字体大小 */
+.fs16{
+    font-size: 16px;
+}
+.fs14{
+    font-size: 14px;
+}
+.fs18{
+    font-size: 18px;
+}
+.fs20{
+    font-size: 20px;
+}
+.fs22{
+    font-size: 22px;
+}
+.fs24{
+    font-size: 24px;
+}
+.fs26{
+    font-size: 26px;
+}
+.fs28{
+    font-size: 28px;
+}
+.fs30{
+    font-size: 30px;
+}
+.fs72{
+    font-size: 72px;
+}
+/* 字体居中 */
+.txtal{
+    text-align: center;
+}
+/* 字体样式 */
+.fwn{
+    font-weight: normal;
+}
+.tline{
+    text-decoration: line-through;
+}
+/* 字体首行缩进 */
+.tindent10{
+    text-indent: 10px;
+}
+.tindent20{
+    text-indent: 20px;
+}
+.tindent50{
+    text-indent: 50px;
+}
+.tindent43{
+    text-indent: 43px;
+}
+.tindent15{
+    text-indent: 15px;
+}
+/* 外边距 */
+.mt10{
+    margin-top: 10px;
+}
+.mt20{
+    margin-top: 20px;
+}
+.ml10{
+    margin-left: 10px;
+}
+.ml30{
+    margin-left: 30px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mtb{
+    margin: 30px 0 30px 0;
+}
+.mr30{
+    margin-right: 30px;
+}
+.mt50{
+    margin-top: 50px;
+}
+.ml50{
+    margin-left: 50px;
+}
+.mt40{
+    margin-top: 40px;
+}
+.mb40{
+    margin-bottom: 40px;
+}
+.mr10{
+    margin-right: 10px;
+}
+.ml20{
+    margin-left: 20px;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.mt70{
+    margin-top: 70px;
+}
+.ml15{
+    margin-left: 15px;
+}
+/* 内边距 */
+.pt15{
+    padding-top: 10px;
+}
+.pt20{
+    padding-top: 20px;
+}
+/* 背景颜色 */
+.bgc10{
+    background-color: #101010;
+}
+.bgff{
+    background-color: #ff6600
+}
+.bgeb{
+    background-color: #ebebeb;
+}
+.bea8{
+    background-color: #1a83e5;
+}
+.bgf4{
+    background-color: #f4f4f4;  
+}
+.bgce6{
+    background-color: #e6e6e6;
+}
+.bgcfeb{
+    background-color:#feb80f
+}
+.bgcfff{
+    background-color: #fff;
+}
+/* 行高 */
+/* 选项卡 */
+
+/* 头（顶部样式） */
+#header{
+    position: relative;
+}
+#header .top{
+    line-height: 40px;
+}
+#header .lego{
+    margin-left: 205px;
+}
+
+/* log */
+#header .legoulogo{
+    position: absolute;
+    top:0;
+    height: 141px;
+    width: 200px;
+}
+
+/* 搜索框和购物车订单 */
+.searchbox{
+        margin-top: 20px;
+        margin-right: 20px;
+}
+
+/* 搜索框 */
+.searchbox .formhbox{
+    width: 440px;
+    height: 32px;
+    border: solid 2px #ff6600; 
+    position: relative;
+
+}
+.searchbox .formhbox input{
+    float: left;
+    width: 390px;
+    line-height: 32px;
+    border: none;
+    outline: none;
+
+}
+.searchbox .formhbox .txt{
+    text-indent: 6px;
+}
+.searchbox .formhbox .btn{
+    width: 50px;
+    background: url(../images/bgicon.png) no-repeat
+}
+#topsearch form{
+    float: none;
+    margin: 10px auto;
+}
+/* 购物车 */
+.searchbox .carbox{
+    width:200px; 
+    line-height: 36px;    
+    margin-left: 34px;
+    text-align: center;
+    margin-right: 316px;
+}
+.searchbox .carbox .car{
+    height: 36px;
+    width: 70px;
+    padding-left: 30px;
+    background: url(../images/bgicon.png) no-repeat 0 -42px #ff6600;
+}
+
+.searchbox .carbox  a:hover { 
+	text-decoration: none;
+	color: #fff;
+}
+/* 订单 */
+.searchbox .carbox .order{
+    width: 98px;
+    height: 34px;
+    border: solid 1px #cccccc;
+}
+
+/* 导航栏 */
+.nav ul{
+    margin: 25px 45px 3px 0;
+}
+.nav li{
+    float: left;
+    line-height: 16px;
+    margin-left: 35px;
+}
+.nav li a{
+    font-size: 16px;
+    font-family: SimHei;
+    color: #9f9f9f;
+}
+
+/* 页脚 */
+
+
+
+
+
+
+/* 顶部搜索框 */
+#topsearch{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #ff6600;
+    display: none;
+}
+/* 回到顶部 */
+#topback{
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 45px;
+    width: 30px;
+    height: 50px;
+    background: url(../images/gototop_05.jpg)
+}
+
+/* 购物车加减 */
+
+
