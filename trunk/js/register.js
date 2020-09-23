@@ -64,12 +64,14 @@ $(function () {
         let bool = flag.form();
         if(bool){
             $(this).parents('.person').removeClass('divcur')
-           $(".succeed").addClass("divcur");
+            $(".succeed").addClass("divcur");
+            $('.registerbox-head li span').eq(1).removeClass('scur')
+            $('.registerbox-head li').eq(1).removeClass('licur')
+            $('.registerbox-head li span').eq(2).addClass('scur')
+            $('.registerbox-head li').eq(2).addClass('licur')
         }       
     })
   
-
-
     //用户名
     jQuery.validator.addMethod("username", function(value, element) {   
             var tel = /^[A-Za-z0-9]{5,10}$/;
@@ -163,6 +165,9 @@ $('#register #repwd').keyup(function(){
 /* 同意的点击事件 */
 $('.agreebtn').click(function(){
     $(this).parents('.person').removeClass('divcur')
-   $(".message").addClass('divcur')
-   console.log($(".message"));
+    $(".message").addClass('divcur')
+    $('.registerbox-head li span').eq(0).removeClass('scur')
+    $('.registerbox-head li').eq(0).removeClass('licur')
+    $('.registerbox-head li span').eq(1).addClass('scur')
+    $('.registerbox-head li').eq(1).addClass('licur')
 })

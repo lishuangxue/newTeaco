@@ -122,6 +122,15 @@ body{
 .cff9{
     color: #ff9c00;
 }
+.cb05{
+    color: #b05811;
+}
+.c555{
+    color: #555555;
+}
+.cab5{
+    color: #ab5d00;
+}
 /* 边框线 */
 .bd{
     border:1px solid red
@@ -161,6 +170,10 @@ body{
 .txtal{
     text-align: center;
 }
+/* 字体加粗 */
+.fwb{
+    font-weight: bold;
+}
 /* 字体样式 */
 .fwn{
     font-weight: normal;
@@ -186,6 +199,12 @@ body{
 }
 .tindent30{
     text-indent: 30px;
+}
+.tindent26 {
+    text-indent: 26px;
+}
+.tindent0 {
+    text-indent: 0px;
 }
 /* 外边距 */
 .mt10{
@@ -241,6 +260,12 @@ body{
 }
 .ml25{
     margin-left: 25px;
+}
+.mt100{
+    margin-top: 100px;
+}
+.mt48{
+    margin-top: 48px;
 }
 /* 内边距 */
 .pt10{
