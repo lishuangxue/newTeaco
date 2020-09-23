@@ -1,0 +1,136 @@
+/* 结算 */
+/* 表格 */
+#shopcartarea table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#shopcartarea table{
+    border: 1px solid #ccc;
+}
+
+#shopcartarea table thead tr,
+#shopcartarea table tfoot tr{
+    line-height: 60px;
+    background-color: #f2f2f2;
+}
+
+#shopcartarea table tbody img{
+    vertical-align: middle;
+}
+
+#shopcartarea table tbody .reducebtn,
+#shopcartarea table tbody .addbtn
+{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc; 
+    text-align: center;   
+    cursor: pointer;
+    user-select: none;
+    text-indent: 0px
+}
+
+#shopcartarea table tbody .count{
+width: 50px;
+height: 30px;
+border: 1px solid #ccc;
+text-indent: 20px;    
+
+}
+/* 表格 */
+#payment table{
+    width: 1200px;
+}
+#payment table thead tr{
+    line-height: 60px;
+    background-color: #f2f2f2;
+
+}
+#payment table tbody ul li{
+    float: left;
+	width: 26px;
+	height: 26px;
+	background-color: #ffffff;
+    border: solid 1px #cccccc;
+    line-height: 26px;
+    cursor: pointer;
+    text-indent: 0px;
+}
+#payment table thead{
+    padding-bottom: 100px;
+}
+#payment table tbody ul li.num{
+    width: 50px;
+}
+#payment table tbody tr{
+    border-bottom: 1px solid #b8b8b8;
+    line-height: 20px;
+}
+#payment table tbody tr td:last-child{
+    line-height:28px;
+}
+#payment table tbody tr:first-child{
+    border-top: 5px solid #dfdfdf;
+}
+#payment table tfoot tr{
+    line-height: 60px;
+    border: solid 1px #cccccc;
+    
+}
+#payment table tfoot td:last-child{
+	width: 128px;
+	height: 60px;
+	background-color: #ff6600;
+    border-radius: 2px;
+    line-height: 60px;
+    text-indent: 0px;
+}
+
+/* 猜你喜欢 */
+#payment .itembook h2{
+    width: 124px; 
+    line-height: 42px;
+}
+#payment .itembook ul{
+    border-top: 2px solid #b8b8b8;
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+#payment .itembook li{
+    padding-top: 8px;
+    float: left;
+    width: 210px;
+	height: 258px;
+    box-sizing: border-box;
+    margin-right: 30px;
+}
+#payment .itembook li>p{
+    line-height: 20px;
+}
+/* 删除 */
+#payment tbody .delbtn,.delallbtn{
+    cursor: pointer;
+}
+#shopcartarea table tbody img{
+    width: 110px;
+	height: 110px;
+}
+
+
+.newpin{
+    width: 90px!important;
+    height: 25px!important;
+
+}
+.woman{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.mumu{
+    margin-top: 20px;
+    width: 259px;
+    text-indent: 0px;
+}
