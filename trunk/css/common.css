@@ -213,6 +213,9 @@ body{
 .mt20{
     margin-top: 20px;
 }
+.mt30{
+    margin-top: 30px;
+}
 .ml10{
     margin-left: 10px;
 }
@@ -266,6 +269,9 @@ body{
 }
 .mt48{
     margin-top: 48px;
+}
+.mr20{
+    margin-right: 20px;
 }
 /* 内边距 */
 .pt10{
@@ -476,6 +482,61 @@ body{
     width: 30px;
     height: 50px;
     background: url(../images/gototop_05.jpg)
+}
+/* 支付共用样式 */
+#submit{
+    background-color: #f4f4f4;
+    height: 1060px;
+    padding-top: 30px;
+}
+#submit .bigbox{
+    height: 1000px;  
+}
+#submit .box-r{
+   width: 100%;
+   height: 110px;
+}
+#submit .process{
+       width: 586px;
+       height: 69px;
+}
+#submit .process span{
+   text-align: center;
+   display: inline-block;
+   width: 30px;
+   line-height: 30px;
+   border: 1px solid #b8b8b8;
+   border-radius: 15px;
+   font-size: 20px
+}
+#submit h2{
+   margin-left: 20px;
+   margin-right: 20px;
+   font-size: 18px;
+   line-height:30px;
+   border-bottom: 1px solid #b8b8b8;
+}
+#submit .bigbox>p{
+    border-bottom: 2px solid #b8b8b8;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#submit .order{
+    text-align: right;
+}
+#submit .order p{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#submit .order p:last-child a{
+    display: block;
+    width: 175px;
+    background-color: #ff6600;
+    color: #fff;
+    text-align: center;
+    line-height: 44px;
+    font-size: 18px;
 }
 
 

@@ -88,8 +88,7 @@ $('.count').keyup(function(){
     /* 小计=数量*单价 */
     let singlePrice=$(obj).parent().siblings('.singlePrice').html()
     let singleTotalPrice=singlePrice*num
-    $(obj).parent().siblings('.singleTotalPrice').html(singleTotalPrice.toFixed(2))
-        
+    $(obj).parent().siblings('.singleTotalPrice').html(singleTotalPrice.toFixed(2))     
  }
  /* 总价 */
  function totalPrice(){

@@ -1,0 +1,19 @@
+#submit{
+    height: 936px;
+}
+#submit .bigbox {
+    height: 880px;
+}
+#submit ul{
+    position: relative;
+}
+#submit ul li{
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#submit ul a{
+    position: absolute;
+    right: 134px;
+    top: 37px;
+}

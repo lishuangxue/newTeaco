@@ -1,0 +1,178 @@
+#submit{
+    background-color: #f4f4f4;
+    height: 1060px;
+    padding-top: 30px;
+}
+#submit .bigbox{
+     height: 1000px;  
+}
+#submit .box-r{
+    width: 100%;
+    height: 110px;
+}
+#submit .process{
+        width: 586px;
+        height: 69px;
+}
+#submit .process span{
+    text-align: center;
+    display: inline-block;
+    width: 30px;
+    line-height: 30px;
+    border: 1px solid #b8b8b8;
+    border-radius: 15px;
+    font-size: 20px
+}
+#submit h2{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    line-height:30px;
+    border-bottom: 1px solid #b8b8b8;
+}
+#submit  ul{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+#submit  ul li p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#submit  ul li p:first-child{
+    border-bottom: 1px solid #b8b8b8;
+}
+#submit  ul li{
+    border: 1px dashed #b8b8b8;
+    width: 270px;
+    height: 131px;
+    line-height: 32px;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
+#submit  ul li span{
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+    display: block;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    bottom:-1px;
+    right:-1px;
+}
+#submit .bigbox .shop{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 40px;
+}
+#submit .bigbox .shop span:first-child{
+    color: #fff;
+    background-color: dodgerblue;
+    text-align: center;
+
+}
+
+/* 表单 */
+/* 结算 */
+/* 表格 */
+#submit table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#submit table tbody img{
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+#submit table tbody .reducebtn,
+#submit table tbody .addbtn
+{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc; 
+    text-align: center;   
+    cursor: pointer;
+    user-select: none;
+    text-indent: 0px
+}
+
+#submit table tbody .count{
+width: 50px;
+height: 30px;
+border: 1px solid #ccc;
+text-indent: 20px;    
+
+}
+
+#submit table tfoot td{
+    height: 200px;
+}
+#submit table tfoot td div{
+	width: 128px;
+	height: 60px;
+	background-color: #ff6600;
+    border-radius: 2px;
+    line-height: 60px;
+    text-indent: 0px;
+}
+
+
+/* 删除 */
+#submit tbody .delbtn,.delallbtn{
+    cursor: pointer;
+}
+#submit table tbody img{
+    width: 110px;
+	height: 110px;
+}
+.newpin{
+    width: 90px!important;
+    height: 25px!important;
+
+}
+.woman{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.mumu{
+    margin-top: 20px;
+    width: 259px;
+    text-indent: 0px;
+}
+.singleTotalPrice::before{
+    content: "小计：";
+    color: #ccc;
+    
+}
+
+.message{
+    border: none;
+    border:1px solid #b8b8b8;
+    outline: none;
+    width: 350px;
+    height: 30px;
+}
+#submit .bigbox>p{
+    border-bottom: 2px solid #b8b8b8;
+    padding-bottom: 20px;
+}
+#submit .order{
+    text-align: right;
+}
+#submit .order p{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#submit .order p:last-child a{
+    display: block;
+    width: 175px;
+    background-color: #ff6600;
+    color: #fff;
+    text-align: center;
+    line-height: 44px;
+    font-size: 18px;
+}
